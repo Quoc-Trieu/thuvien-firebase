@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thư viện</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="colum">
+            <div class="info-title">THÔNG TIN CÁ NHÂN</div>
+            <div class="form">
+                <label class="control-label" for="name">Nhập họ và tên</label>
+                <input class="name_form" id="name" name="name" type="text" placeholder="nguyen quoc trieu...">
+                <label class="control-label" for="age">Nhập tuổi</label>
+                <input class="name_form" id="age" name="age" placeholder="20...">
+                <div class="create">
+                    <input class="submit" type="submit">
+                </div>
+            </div>
+        </div>
+        <div class="colum">
+            <div class="info-title">Thông tin cá nhân hiển thị tại đây</div>
+            <div class="show-infor">
+                <ul class="list-items"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="./main.js">
+
+        
+    </script>
+</body>
+</html>
