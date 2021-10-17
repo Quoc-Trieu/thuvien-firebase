@@ -26,12 +26,12 @@ function renderUsers(users){
         return`
             <li class = "list-item list-item-${user.id}">
             <div class = "colum-form">
-            <i>Người dùng ${user.id}:</i>
+            <i>Người dùng:</i>
             <h4>Name: ${user.name}</h4>
             <p>Age: ${user.age}</p>
             </div>
             <div class="colum-btn">
-                <button onclick="deteteUser('${user.id}')" class="btn-delete">xoá người dùng ${user.id}</button>
+                <button onclick="deteteUser('${user.id}')" class="btn-delete">xoá người dùng</button>
             </div>
             <hr>
             </li>
